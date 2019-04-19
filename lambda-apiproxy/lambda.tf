@@ -3,7 +3,7 @@ variable "lambda_payload_filename" {
 }
 
 variable "lambda_function_handler" {
-  default = "com.example.aws.lamba.apiproxy.LambdaFunctionHandler"
+  default = "com.example.aws.lambda.apiproxy.LambdaFunctionHandler"
 }
 
 variable "lambda_runtime" {
